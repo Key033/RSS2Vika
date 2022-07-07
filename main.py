@@ -2,8 +2,8 @@ import os
 from feedtool import VikaApi, read_rss
 
 api = os.environ.get("API")
-clipper = os.environ.get("Clipper")
-feeds = os.environ.get("Feeds")
+clipper = os.environ.get("CLIPPER")
+feeds = os.environ.get("FEEDS")
 
 
 def run():
