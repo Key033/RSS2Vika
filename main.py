@@ -8,7 +8,7 @@ feeds = os.environ.get("FEEDS")
 
 def run():
     if api is None:
-        print("api secrets is not set!")
+        print("Vika secrets is not set!")
         return
     rss_list = VikaApi(api, clipper, feeds)
 

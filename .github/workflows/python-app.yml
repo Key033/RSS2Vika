@@ -16,9 +16,9 @@ jobs:
         python-version: ['3.10']
 
     env:
-      NOTION_SEC: ${{ secrets.NOTION_SEC}}
-      NOTION_FED: ${{ secrets.NOTION_FED}}
-      NOTION_RED: ${{ secrets.NOTION_RED}}
+      API: ${{ secrets.API}}
+      CLIPPER: ${{ secrets.CLIPPER}}
+      FEEDS: ${{ secrets.FEEDS}}
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python ${{ matrix.python-version }}
