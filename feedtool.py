@@ -8,7 +8,7 @@ from dateutil import parser
 now = datetime.now(timezone.utc).timestamp()
 delete_day = 14  # 删除14天前的内容
 delete_timestamp = (now - delete_day * 86400) * 1000  # 毫秒时间戳
-load_day = 30  # 导入2天内的内容
+load_day = 10  # 导入10天内的内容
 load_time = load_day * 86400
 
 
